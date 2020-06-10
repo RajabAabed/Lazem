@@ -20,60 +20,48 @@
 
 <body>
     <header class="fixed-top scrollsm">
-        <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="nav-wrapper">
+            <div class="grad-bar"></div>
             <div class="container">
-                <a class="navbar-brand text-uppercase cl" href="index.html">
-                    <img src="images/Group%201004.svg" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="index.html">الرئيسية </a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="#">من نحن</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="#">الدورات التدريبيه</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="#">المدربين</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="articles.html">مقالات</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="media.html">وسائط رقميه</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-uppercase cl" href="#">اتصل بنا</a>
-                        </li>
-                        <li class="nav-item ml-3">
+                <nav class="navbar">
+                    <img src="images/Group%201004.svg" alt="Company Logo">
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="#" class="cl">الرئيسية</a></li>
+                        <li class="nav-item"><a href="#" class="cl">من نحن</a></li>
+                        <li class="nav-item"><a href="#" class="cl">الدورات التدريبيه</a></li>
+                        <li class="nav-item"><a href="#" class="cl">المدربين</a></li>
+                        <li class="nav-item"><a href="#" class="cl">مقالات</a></li>
+                        <li class="nav-item"><a href="#" class="cl">وسائط رقميه</a></li>
+                        <li class="nav-item"><a href="#" class="cl">اتصل بنا</a></li>
+                        <li class="nav-item">
                             <a class="nav-link text-uppercase cl bg-r" href="login.html" style="color: #fff !important; ">تسجيل الدخول</a>
                         </li>
-                        <li class="nav-item ml-3">
+                        <li class="nav-item">
                             <a class="nav-link text-uppercase cl bg-l" href="create%20account.html" style="color: #fff !important;">تسجيل جديد</a>
                         </li>
                     </ul>
-                </div>
+
+
+                </nav>
             </div>
-        </nav>
+        </div>
     </header>
     <!-- End header -->
 
 
     <main class="login-main">
         <div class="container">
-            <div class="login-titel-section">
+            <div class="login-titel-section wow slideInDown">
                 <h1>تسجيل جديد</h1>
                 <h6>يمكنك تسجيل الدخول اذا كنت مسجل مسبقاً لدينا</h6>
             </div>
-            <div class="login-form">
+            <div class="login-form wow zoomIn">
 
                 <form method="post">
                     <div class="form-group">
@@ -100,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-create"></button>
+                    <button type="submit" class="btn btn-create wow fadeInUp" data-wow-delay=".4s"></button>
                 </form>
 
             </div>
